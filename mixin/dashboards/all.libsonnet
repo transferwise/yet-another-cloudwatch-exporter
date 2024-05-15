@@ -4,4 +4,5 @@
   'lambda.json': import 'lambda.libsonnet',
   'rds.json': import 'rds.libsonnet',
   's3.json': import 's3.libsonnet',
+  'sqs.libsonnet': import 'sqs.libsonnet',
 }
