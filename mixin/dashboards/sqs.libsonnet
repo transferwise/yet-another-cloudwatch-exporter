@@ -1,10 +1,4 @@
 local common = import 'common.libsonnet';
-local grafana = import 'grafonnet-7.0/grafana.libsonnet';
+local grafana = import 'grafonnet-v10.0.0/main.libsonnet';
 
 
-grafana.dashboard.new(
-  title='AWS RDS',
-  description='Visualize Amazon RDS metrics',
-  tags=['Amazon', 'AWS', 'CloudWatch', 'RDS'],
-  graphTooltip=common.tooltipSharedCrosshair,
-)
